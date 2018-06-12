@@ -32,10 +32,10 @@ server.post('/', function(request, response){
         image: request.body.chooseImage,
         meme_text: request.body.meme_text
     })
-    var port = process.env.PORT
+    
 })
 
-var port = 8080
+var port = process.env.PORT
 
 
 server.listen(port, () => {
