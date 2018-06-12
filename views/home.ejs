@@ -1,0 +1,57 @@
+<head>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <!-- Compiled and minified JavaScript -->
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>   
+    <style>
+        img {
+            width: 20%;
+        }
+    </style>
+</head>44
+<body>
+    <nav>
+    <div class="nav-wrapper light-blue lighten-1">
+      <a href="#" class="brand-logo center">Random Meme Generator</a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+      </ul>
+    </div>
+  </nav>
+  <div class='container'>
+  <form action="/" method="POST">
+      <button class="btn btn-success" type="submit" >Submit</button>
+        <p>Put Text<input name="meme_text" id="search" /></p>
+        <div id="results" class="row"></div>
+        <p>Choose Image</p>
+        <p style="margin-bottom: 150px;">
+            <label>
+                <input value="https://1.cdn.edl.io/QD2KrCyYkKHQm53vEHcknw0B9rBRzYwq9AGuYUQpvypQMH8L.jpg" class="with-gap" name="chooseImage" type="radio" checked />
+                <span><img src="https://1.cdn.edl.io/QD2KrCyYkKHQm53vEHcknw0B9rBRzYwq9AGuYUQpvypQMH8L.jpg" /></span>
+            </label>
+        </p>
+        <p style="margin-bottom: 150px;">
+            <label>
+                <input value="http://www.slate.com/content/dam/slate/articles/news_and_politics/the_good_fight/2017/10/trump_s_right_he_s_ahead_of_schedule/USPOLITICSTRUMP.jpeg.CROP.promo-xlarge2.jpeg" class="with-gap" name="chooseImage" type="radio" checked />
+                <span><img src="http://www.slate.com/content/dam/slate/articles/news_and_politics/the_good_fight/2017/10/trump_s_right_he_s_ahead_of_schedule/USPOLITICSTRUMP.jpeg.CROP.promo-xlarge2.jpeg" /></span>
+            </label>
+        </p>
+        <p style="margin-bottom: 150px;">
+            <label>
+                <input value="https://usatftw.files.wordpress.com/2018/05/usp_nba-_playoffs-cleveland_cavaliers_at_boston_ce-2.jpg?w=1000&h=600&crop=1" class="with-gap" name="chooseImage" type="radio" checked />
+                <span><img src="https://usatftw.files.wordpress.com/2018/05/usp_nba-_playoffs-cleveland_cavaliers_at_boston_ce-2.jpg?w=1000&h=600&crop=1" /></span>
+            </label>
+        </p>
+        <p style="margin-bottom: 150px;">
+            <label>
+                <input value="https://i.ytimg.com/vi/rnp52YqF7Us/maxresdefault.jpg" class="with-gap" name="chooseImage" type="radio" checked />
+                <span><img src="https://i.ytimg.com/vi/rnp52YqF7Us/maxresdefault.jpg" /></span>
+            </label>
+        </p>
+        
+    </form>
+    </div>
+
+</body>
